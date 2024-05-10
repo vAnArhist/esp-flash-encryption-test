@@ -1,0 +1,181 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x400462dc: ets_delay_us in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0;33m0x40048b82: software_reset in ROM
+[0m
+[0m

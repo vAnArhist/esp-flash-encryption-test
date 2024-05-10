@@ -1,0 +1,2561 @@
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x400462dc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (29) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8
+entry 0x403cc710
+[0;32mI (15) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Jan 25 2024 22:51:36[0m
+[0;32mI (15) boot: chip revision: v0.4[0m
+[0;32mI (15) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (15) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (16) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (16) boot: Enabling RNG early entropy source...[0m
+[0;32mI (16) boot: Partition Table:[0m
+[0;32mI (16) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (17) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (17) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (17) boot: End of partition table[0m
+[0;32mI (17) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0d260h ( 53856) map[0m
+[0;32mI (26) esp_image: segment 1: paddr=0001d288 vaddr=3fc8ea00 size=01470h (  5232) load[0m
+[0;32mI (28) esp_image: segment 2: paddr=0001e700 vaddr=40380000 size=01918h (  6424) load[0m
+[0;31mE (29) esp_image: invalid segment length 0xe1bbb588[0m
+[0;31mE (29) boot: Factory app partition is not bootable[0m
+[0;31mE (30) boot: No bootable app partitions in the partition table[0m
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x170c
+load:0x403cc710,len:0x938
+load:0x403ce710,len:0x2ee8

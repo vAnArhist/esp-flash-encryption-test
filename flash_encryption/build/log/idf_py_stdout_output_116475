@@ -1,0 +1,10 @@
+[1/1] cd /home/ivan/WORK/esp-flash-encryption-test/flash_encryption/build/esp-idf/esptool_py && /usr/bin/cmake -E echo "Error: The target encrypted-app-flash requires" && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled." && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/ivan/esp/esp-idf/tools/cmake/scripts/fail.cmake
+FAILED: esp-idf/esptool_py/CMakeFiles/encrypted-app-flash /home/ivan/WORK/esp-flash-encryption-test/flash_encryption/build/esp-idf/esptool_py/CMakeFiles/encrypted-app-flash 
+cd /home/ivan/WORK/esp-flash-encryption-test/flash_encryption/build/esp-idf/esptool_py && /usr/bin/cmake -E echo "Error: The target encrypted-app-flash requires" && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled." && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/ivan/esp/esp-idf/tools/cmake/scripts/fail.cmake
+Error: The target encrypted-app-flash requires
+CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled.
+CMake Error at /home/ivan/esp/esp-idf/tools/cmake/scripts/fail.cmake:3 (message):
+  Failed executing target (see errors on lines above)
+
+
+ninja: build stopped: subcommand failed.

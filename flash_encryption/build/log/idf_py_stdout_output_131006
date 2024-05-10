@@ -1,0 +1,209 @@
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xd (SPI_FAST_FLASH_BOOT)
+Saved PC:0x400462dc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5988,len:0x978
+load:0x403cc710,len:0x6c0
+load:0x403ce710,len:0x3a24
+entry 0x403cc710
+[0;32mI (60) cpu_start: Unicore app[0m
+[0;32mI (61) cpu_start: Pro cpu up.[0m
+[0;32mI (69) cpu_start: Pro cpu start user code[0m
+[0;32mI (69) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (70) cpu_start: Application information:[0m
+[0;32mI (72) cpu_start: Project name:     flash_encryption[0m
+[0;32mI (78) cpu_start: App version:      8fa9092[0m
+[0;32mI (83) cpu_start: Compile time:     May  8 2024 13:33:24[0m
+[0;32mI (89) cpu_start: ELF file SHA256:  f7db6e69bd9f46f5...[0m
+[0;32mI (95) cpu_start: ESP-IDF:          v5.1.2-430-gc0f7cfdb48[0m
+[0;32mI (101) cpu_start: Min chip rev:     v0.3[0m
+[0;32mI (105) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (110) cpu_start: Chip rev:         v0.4[0m
+[0;32mI (115) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (122) heap_init: At 3FC8D320 len 00032CE0 (203 KiB): DRAM[0m
+[0;32mI (128) heap_init: At 3FCC0000 len 0001C710 (113 KiB): DRAM/RETENTION[0m
+[0;32mI (135) heap_init: At 3FCDC710 len 00002950 (10 KiB): DRAM/RETENTION/STACK[0m
+[0;32mI (143) heap_init: At 50000010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (150) spi_flash: detected chip: generic[0m
+[0;32mI (154) spi_flash: flash io: dio[0m
+[0;33mW (158) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (171) flash_encrypt: Flash encryption mode is DEVELOPMENT (not secure)[0m
+[0;32mI (179) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (185) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (192) app_start: Starting scheduler on CPU0[0m
+[0;32mI (197) main_task: Started on CPU0[0m
+[0;32mI (197) main_task: Calling app_main()[0m
+
+Example to check Flash Encryption status
+This is esp32c3 chip with 1 CPU core(s), WiFi/BLE, silicon revision v0.4, 2MB external flash
+FLASH_CRYPT_CNT eFuse value is 1
+Flash encryption feature is enabled in DEVELOPMENT mode
+Erasing partition "storage" (0x1000 bytes)
+Writing data with esp_partition_write:
+[0;32mI (267) example: 0x3fc900a0   00 01 02 03 04 05 06 07  08 09 0a 0b 0c 0d 0e 0f  |................|[0m
+[0;32mI (277) example: 0x3fc900b0   10 11 12 13 14 15 16 17  18 19 1a 1b 1c 1d 1e 1f  |................|[0m
+Reading with esp_partition_read:
+[0;32mI (287) example: 0x3fc900c0   00 01 02 03 04 05 06 07  08 09 0a 0b 0c 0d 0e 0f  |................|[0m
+[0;32mI (297) example: 0x3fc900d0   10 11 12 13 14 15 16 17  18 19 1a 1b 1c 1d 1e 1f  |................|[0m
+Reading with esp_flash_read:
+[0;32mI (307) example: 0x3fc900c0   12 98 11 ef eb 3d a8 7d  eb 5b 91 e4 4f aa bb 09  |.....=.}.[..O...|[0m
+[0;32mI (317) example: 0x3fc900d0   66 30 ab 3f 81 22 60 39  59 ca 64 c8 a0 55 f7 74  |f0.?."`9Y.d..U.t|[0m
+[0;31mE (327) nvs: Failed to read NVS security cfg: [0x1117] (ESP_ERR_NVS_CORRUPT_KEY_PART)[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x1117 (ESP_ERR_NVS_CORRUPT_KEY_PART) at 0x42007e4e
+file: "./main/flash_encrypt_main.c" line 80
+func: app_main
+expression: ret
+
+abort() was called at PC 0x403841c5 on core 0
+Core  0 register dump:
+MEPC    : 0x40380700  RA      : 0x403841d0  SP      : 0x3fc90060  GP      : 0x3fc8ba00  
+TP      : 0x3fc86080  T0      : 0x37363534  T1      : 0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000004  S1      : 0x3fc900c4  A0      : 0x3fc9008c  A1      : 0x3fc900c2  
+A2      : 0x00000000  A3      : 0x3fc900b9  A4      : 0x00000001  A5      : 0x3fc8d000  
+A6      : 0x7a797877  A7      : 0x76757473  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4      : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  
+MSTATUS : 0x00001881  MTVEC   : 0x40380001  MCAUSE  : 0x00000007  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+panic_abort (details=details@entry=0x3fc9008c "abort() was called at PC 0x403841c5 on core 0") at /home/ivan/esp/esp-idf/components/esp_system/panic.c:472
+472	    *((volatile int *) 0) = 0; // NOLINT(clang-analyzer-core.NullDereference) should be an invalid operation on targets
+#0  panic_abort (details=details@entry=0x3fc9008c "abort() was called at PC 0x403841c5 on core 0") at /home/ivan/esp/esp-idf/components/esp_system/panic.c:472
+#1  0x403841d0 in esp_system_abort (details=details@entry=0x3fc9008c "abort() was called at PC 0x403841c5 on core 0") at /home/ivan/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+#2  0x4038990e in abort () at /home/ivan/esp/esp-idf/components/newlib/abort.c:38
+#3  0x403841c8 in _esp_error_check_failed (rc=<optimized out>, file=file@entry=0x3c025d8c "", line=line@entry=80, function=function@entry=0x3c026074 <__func__.1> "", expression=expression@entry=0x3c026018 "") at /home/ivan/esp/esp-idf/components/esp_system/esp_err.c:50
+#4  0x42007e52 in app_main () at /home/ivan/WORK/esp-flash-encryption-test/flash_encryption/main/flash_encrypt_main.c:80
+#5  0x4201dc44 in main_task (args=<error reading variable: value has been optimized out>) at /home/ivan/esp/esp-idf/components/freertos/app_startup.c:208
+#6  0x403863aa in vPortTaskWrapper (pxCode=<optimized out>, pvParameters=<optimized out>) at /home/ivan/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c:202
+ELF file SHA256: f7db6e69bd9f46f5
+
+Rebooting...
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xd (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5988,len:0x978
+load:0x403cc710,len:0x6c0
+load:0x403ce710,len:0x3a24
+entry 0x403cc710
+[0;32mI (60) cpu_start: Unicore app[0m
+[0;32mI (61) cpu_start: Pro cpu up.[0m
+[0;32mI (69) cpu_start: Pro cpu start user code[0m
+[0;32mI (69) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (69) cpu_start: Application information:[0m
+[0;32mI (72) cpu_start: Project name:     flash_encryption[0m
+[0;32mI (78) cpu_start: App version:      8fa9092[0m
+[0;32mI (83) cpu_start: Compile time:     May  8 2024 13:33:24[0m
+[0;32mI (89) cpu_start: ELF file SHA256:  f7db6e69bd9f46f5...[0m
+[0;32mI (94) cpu_start: ESP-IDF:          v5.1.2-430-gc0f7cfdb48[0m
+[0;32mI (101) cpu_start: Min chip rev:     v0.3[0m
+[0;32mI (105) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (110) cpu_start: Chip rev:         v0.4[0m
+[0;32mI (115) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (122) heap_init: At 3FC8D320 len 00032CE0 (203 KiB): DRAM[0m
+[0;32mI (128) heap_init: At 3FCC0000 len 0001C710 (113 KiB): DRAM/RETENTION[0m
+[0;32mI (135) heap_init: At 3FCDC710 len 00002950 (10 KiB): DRAM/RETENTION/STACK[0m
+[0;32mI (143) heap_init: At 50000010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (150) spi_flash: detected chip: generic[0m
+[0;32mI (154) spi_flash: flash io: dio[0m
+[0;33mW (158) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (171) flash_encrypt: Flash encryption mode is DEVELOPMENT (not secure)[0m
+[0;32mI (179) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (185) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (192) app_start: Starting scheduler on CPU0[0m
+[0;32mI (197) main_task: Started on CPU0[0m
+[0;32mI (197) main_task: Calling app_main()[0m
+
+Example to check Flash Encryption status
+This is esp32c3 chip with 1 CPU core(s), WiFi/BLE, silicon revision v0.4, 2MB external flash
+FLASH_CRYPT_CNT eFuse value is 1
+Flash encryption feature is enabled in DEVELOPMENT mode
+Erasing partition "storage" (0x1000 bytes)
+Writing data with esp_partition_write:
+[0;32mI (267) example: 0x3fc900a0   00 01 02 03 04 05 06 07  08 09 0a 0b 0c 0d 0e 0f  |................|[0m
+[0;32mI (277) example: 0x3fc900b0   10 11 12 13 14 15 16 17  18 19 1a 1b 1c 1d 1e 1f  |................|[0m
+Reading with esp_partition_read:
+[0;32mI (287) example: 0x3fc900c0   00 01 02 03 04 05 06 07  08 09 0a 0b 0c 0d 0e 0f  |................|[0m
+[0;32mI (297) example: 0x3fc900d0   10 11 12 13 14 15 16 17  18 19 1a 1b 1c 1d 1e 1f  |................|[0m
+Reading with esp_flash_read:
+[0;32mI (307) example: 0x3fc900c0   12 98 11 ef eb 3d a8 7d  eb 5b 91 e4 4f aa bb 09  |.....=.}.[..O...|[0m
+[0;32mI (317) example: 0x3fc900d0   66 30 ab 3f 81 22 60 39  59 ca 64 c8 a0 55 f7 74  |f0.?."`9Y.d..U.t|[0m
+[0;31mE (327) nvs: Failed to read NVS security cfg: [0x1117] (ESP_ERR_NVS_CORRUPT_KEY_PART)[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x1117 (ESP_ERR_NVS_CORRUPT_KEY_PART) at 0x42007e4e
+file: "./main/flash_encrypt_main.c" line 80
+func: app_main
+expression: ret
+
+abort() was called at PC 0x403841c5 on core 0
+Core  0 register dump:
+MEPC    : 0x40380700  RA      : 0x403841d0  SP      : 0x3fc90060  GP      : 0x3fc8ba00  
+TP      : 0x3fc86080  T0      : 0x37363534  T1      : 0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000004  S1      : 0x3fc900c4  A0      : 0x3fc9008c  A1      : 0x3fc900c2  
+A2      : 0x00000000  A3      : 0x3fc900b9  A4      : 0x00000001  A5      : 0x3fc8d000  
+A6      : 0x7a797877  A7      : 0x76757473  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4      : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  
+MSTATUS : 0x00001881  MTVEC   : 0x40380001  MCAUSE  : 0x00000007  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+panic_abort (details=details@entry=0x3fc9008c "abort() was called at PC 0x403841c5 on core 0") at /home/ivan/esp/esp-idf/components/esp_system/panic.c:472
+472	    *((volatile int *) 0) = 0; // NOLINT(clang-analyzer-core.NullDereference) should be an invalid operation on targets
+#0  panic_abort (details=details@entry=0x3fc9008c "abort() was called at PC 0x403841c5 on core 0") at /home/ivan/esp/esp-idf/components/esp_system/panic.c:472
+#1  0x403841d0 in esp_system_abort (details=details@entry=0x3fc9008c "abort() was called at PC 0x403841c5 on core 0") at /home/ivan/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+#2  0x4038990e in abort () at /home/ivan/esp/esp-idf/components/newlib/abort.c:38
+#3  0x403841c8 in _esp_error_check_failed (rc=<optimized out>, file=file@entry=0x3c025d8c "", line=line@entry=80, function=function@entry=0x3c026074 <__func__.1> "", expression=expression@entry=0x3c026018 "") at /home/ivan/esp/esp-idf/components/esp_system/esp_err.c:50
+#4  0x42007e52 in app_main () at /home/ivan/WORK/esp-flash-encryption-test/flash_encryption/main/flash_encrypt_main.c:80
+#5  0x4201dc44 in main_task (args=<error reading variable: value has been optimized out>) at /home/ivan/esp/esp-idf/components/freertos/app_startup.c:208
+#6  0x403863aa in vPortTaskWrapper (pxCode=<optimized out>, pvParameters=<optimized out>) at /home/ivan/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c:202
+ELF file SHA256: f7db6e69bd9f46f5
+
+Rebooting...
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0xd (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048b82
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5988,len:0x978
+load:0x403cc710,len:0x6c0
+load:0x403ce710,len:0x3a24
+entry 0x403cc710
+[0;32mI (60) cpu_start: Unicore app[0m
+[0;32mI (61) cpu_start: Pro cpu up.[0m
+[0;32mI (69) cpu_start: Pro cpu start user code[0m
+[0;32mI (69) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (70) cpu_start: Application information:[0m
+[0;32mI (72) cpu_start: Project name:     flash_encryption[0m
+[0;32mI (78) cpu_start: App version:      8fa9092[0m
+[0;32mI (83) cpu_start: Compile time:     May  8 2024 13:33:24[0m
+[0;32mI (89) cpu_start: ELF file SHA256:  f7db6e69bd9f46f5...[0m
+[0;32mI (95) cpu_start: ESP-IDF:          v5.1.2-430-gc0f7cfdb48[0m
+[0;32mI (101) cpu_start: Min chip rev:     v0.3[0m
+[0;32mI (105) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (110) cpu_start: Chip rev:         v0.4[0m
+[0;32mI (115) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (122) heap_init: At 3FC8D320 len 00032CE0 (203 KiB): DRAM[0m
+[0;32mI (128) heap_init: At 3FCC0000 len 0001C710 (113 KiB): DRAM/RETENTION[0m
+[0;32mI (135) heap_init: At 3FCDC710 len 00002950 (10 KiB): DRAM/RETENTION/STACK[0m
+[0;32mI (143) heap_init: At 50000010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (150) spi_flash: detected chip: generic[0m
+[0;32mI (154) spi_flash: flash io: dio[0m
+[0;33mW (158) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (171) flash_encrypt: Flash encryption mode is DEVELOPMENT (not secure)[0m
+[0;32mI (179) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (185) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (192) app_start: Starting scheduler on CPU0[0m
+[0;32mI (197) main_task: Started on CPU0[0m
+[0;32mI (197) main_task: Calling app_main()[0m
+
+Example to check Flash Encryption status
+This is esp32c3 chip with 1 CPU core(s), WiFi/BLE, silicon revision v0.4, 2MB external flash
+FLASH_CRYPT_CNT eFuse value is 1
+Flash encryption feature is enabled in DEVELOPMENT mode
+Erasing partition "storage" (0x1000 bytes)

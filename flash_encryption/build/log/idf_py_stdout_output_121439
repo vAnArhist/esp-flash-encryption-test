@@ -1,0 +1,39 @@
+[1/2] cd /home/ivan/WORK/esp-flash-encryption-test/flash_encryption/build/esp-idf/esptool_py && /home/ivan/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/ivan/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x9000 partition --type app /home/ivan/WORK/esp-flash-encryption-test/flash_encryption/build/partition_table/partition-table.bin /home/ivan/WORK/esp-flash-encryption-test/flash_encryption/build/flash_encryption.bin
+flash_encryption.bin binary size 0x352b0 bytes. Smallest app partition is 0x100000 bytes. 0xcad50 bytes (79%) free.
+[1/2] cd /home/ivan/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/ivan/esp/esp-idf -D "SERIAL_TOOL=/home/ivan/.espressif/python_env/idf5.1_py3.10_env/bin/python;;/home/ivan/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=no_reset;write_flash;@encrypted_app-flash_args" -D WORKING_DIRECTORY=/home/ivan/WORK/esp-flash-encryption-test/flash_encryption/build -P /home/ivan/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32c3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=no_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB --encrypt 0x20000 flash_encryption.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-C3 (QFN32) (revision v0.4)
+Features: WiFi, BLE, Embedded Flash 4MB (XMC)
+Crystal is 40MHz
+MAC: 84:fc:e6:e6:58:94
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00020000 to 0x00055fff...
+
+WARNING: - compress and encrypt options are mutually exclusive 
+Will flash flash_encryption.bin uncompressed
+Writing at 0x00020000... (7 %)
+Writing at 0x00024000... (14 %)
+Writing at 0x00028000... (21 %)
+Writing at 0x0002c000... (28 %)
+Writing at 0x00030000... (35 %)
+Writing at 0x00034000... (42 %)
+Writing at 0x00038000... (50 %)
+Writing at 0x0003c000... (57 %)
+Writing at 0x00040000... (64 %)
+Writing at 0x00044000... (71 %)
+Writing at 0x00048000... (78 %)
+Writing at 0x0004c000... (85 %)
+Writing at 0x00050000... (92 %)
+Writing at 0x00054000... (100 %)
+Wrote 229376 bytes at 0x00020000 in 1.6 seconds (1133.8 kbit/s)...
+
+Leaving...
+Staying in bootloader.
